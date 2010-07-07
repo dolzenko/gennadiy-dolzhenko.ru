@@ -19,6 +19,7 @@
 			</div>
 		</div>
 		<div id="floatright">
+		Меню
 <a href='../index.html'>Главная</a>
 <a href='../work.html'>Книги</a>
 <a href='../paper.html'>Статьи</a>
