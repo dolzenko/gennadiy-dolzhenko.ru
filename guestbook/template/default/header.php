@@ -19,13 +19,17 @@
 			</div>
 		</div>
 		<div id="floatright">
-			Меню
-			<a href="../index.html">Главная</a>
-			<a href="../work.html">Книги</a>
-			<a href="../paper.html">Статьи</a>
-			<a href="../diploma.html">Благодарности</a> 						 									
-			<a href="../contact.html">Контакты</a>
-			<a href="#" style="color: Black;">Книга мнений</a>
+<a href='../index.html'>Главная</a>
+<a href='../work.html'>Книги</a>
+<a href='../paper.html'>Статьи</a>
+<a href='../diploma.html'>Благодарности</a>
+<a href='../contact.html'>Контакты</a>
+<a href='../guestbook'>Книга мнений</a>
+<a href='../entrant.html'>Абитуриенту <span style="white-space: nowrap">о специальности</span> &laquo;Туризм&raquo;</a></a>
+Студенту
+<a href='../student.html'>&laquo;Заключения&raquo; дипломных работ</a>
+<a href='../student_presentation.html'>Доклады на защите</a>
+<a href='../student_work.html'>Науч. работа студентов</a>
 		</div>
 		<div id="content">
 		<h1>Книга мнений об авторе и его работах</h1>
