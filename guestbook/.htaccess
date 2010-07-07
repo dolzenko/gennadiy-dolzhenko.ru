@@ -1,0 +1,9 @@
+DirectoryIndex index.php index.html
+<IfModule mod_php5.c>
+  php_flag magic_quotes_gpc off
+  php_flag register_globals off
+</IfModule>
+<IfModule mod_php4.c>
+  php_flag magic_quotes_gpc off
+  php_flag register_globals off
+</IfModule>
