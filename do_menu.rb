@@ -10,7 +10,6 @@ MENU = {
     "diploma.html" => "Благодарности",
     "contact.html" => "Контакты",
     "guestbook" => "Книга мнений",
-    "Книга мнений" => "Книга мнений",
     "entrant.html" => 'Абитуриенту <span style="white-space: nowrap">о специальности</span> &laquo;Туризм&raquo;</a>',
   },
   "Студенту" => {
@@ -25,7 +24,8 @@ def generate_menu(path)
   for top_level_name, items in MENU
     res << top_level_name << "\n"
     for item_path, item_name in items
-      style = ' style="color: Black;"' if item_path == path
+      style = item_path == path.sub(".erb", "") ? ' style="color: Black;"' : '' 
+      item_path = "../#{ item_path }" if path =~ /work_item_template.erb.html/
       res << "<a href='#{ item_path }'#{ style }>#{ item_name }</a>" << "\n"
     end
   end
@@ -33,8 +33,6 @@ def generate_menu(path)
 end
 
 Dir["*.html"].each do |path|
-  next if path =~ /work_item_template.erb.html/
-
   src = nil
   File.open(path, "r:windows-1251:utf-8") do |file|
     src = file.read
@@ -44,9 +42,8 @@ Dir["*.html"].each do |path|
   src.sub!(%r{#{menu_decoration[0]}.+?#{menu_decoration[1]}}m,
            menu_decoration[0] + generate_menu(path) + menu_decoration[1])
 
-  File.open("#{path}.out", "w:windows-1251:utf-8") do |out|
+  File.open(path, "w:windows-1251:utf-8") do |out|
     out.write(src)
   end
-  exit(0)
 end
 

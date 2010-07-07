@@ -1,1 +1,0 @@
-erb work.erb.html > work.html
