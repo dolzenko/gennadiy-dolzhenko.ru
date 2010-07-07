@@ -1,0 +1,212 @@
+body
+{
+	font-family: Trebuchet MS, Arial, Helvetica;
+	font-size: 11px;
+	background-color: #E5DBB4;
+	overflow-x: hidden;
+}
+
+#thebox
+{
+	width: 50em;
+	background-color: white;
+	color: #666;
+	border: 1px rgb(75,55,52) solid;
+	margin: 10px auto 0px auto;
+	padding: 0px 20px 0 20px;
+  overflow: hidden;
+}
+
+#headtag
+{
+	background: url(   'sakura.jpg' ) no-repeat;
+	height: 150px;
+}
+
+#headtext
+{
+	color: White;
+	font-size: 18px;
+	text-align: right;
+}
+
+#headtagline
+{
+	color: White;
+	font-size: 10px;
+	text-align: right;
+	font-style: italic;
+	top: 57px;
+	left: -24px;
+}
+
+#content p
+{
+	margin-right: 100px;
+}
+
+#floatright
+{
+	margin-top: 15px;
+	font-size: 20px;
+	float: right;
+	width: 80px;
+}
+
+#floatright a
+{
+	font-size: 12px;
+	float: right;
+	width: 80px;
+	text-decoration: none;
+	color: #57A083;
+	padding-bottom: 5px;
+}
+
+#floatright a:hover
+{
+	font-size: 12px;
+	float: right;
+	width: 80px;
+	text-decoration: underline;
+	color: #57A083;
+}
+
+#content
+{
+	color: #666;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 10px 10px 0px;
+	font-size: 13px;
+	
+}
+
+#content h1, h2
+{
+	font-size: 22px;
+	text-decoration: none;
+	font-family: Trebuchet MS, Arial, Helvetica;
+	color: #57A083;
+	margin-right: 100px;
+}
+
+div.workitem
+{
+	/*border-bottom: dotted 1px grey;*/
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 100px;
+	height: 160px;
+}
+
+#paperlist li
+{
+	width: 400px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+}
+
+#content a:link, a:visited, a:active
+{
+	color: #57A083;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+span.btitle
+{
+	font-family: Arial;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4px;
+	font-size: 14px;
+}
+
+h2.insidebtitle
+{
+	font-family: Arial;
+	font-size: 16px;
+}
+
+h2.insidebtitle span.btitle
+{
+	font-family: Arial;
+	font-size: 22px;
+}
+
+
+/* guestbook */
+fieldset
+{
+	border: solid 1px #666666;
+	padding: 4px 4px 4px 4px;
+	margin-bottom: 15px;
+	margin-right: 100px;
+}
+
+legend
+{
+	color: #ffffff;
+	background: #57a083;
+	border: 1px outset #cccccc;
+	padding: 2px 2px 2px 2px;
+	font-weight: bold;
+}
+
+label
+{
+	width: 80px;
+	float: left;
+	margin: 2px 0px 2px 0px;
+	text-align: left;
+}
+
+.inputText
+{
+	margin: 2px 0px 2px 5px;
+}
+
+.inputTextArea
+{
+	height: 250px;
+	width: 410px;
+}
+.errorMessage
+{
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	color: #ff0000;
+}
+.value
+{
+	float: left;
+}
+div.entry
+{
+	border-bottom: dotted 1px grey;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-right: 100px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+div.comment
+{
+	margin-top: 5px;
+}
+
+#content p.student_mugshot
+{
+  float: left;
+  margin: 0px 15px 5px 5px;
+  border: 1px solid #FFCC66;
+  padding: 2px 2px;
+}
+
