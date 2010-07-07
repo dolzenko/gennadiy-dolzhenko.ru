@@ -22,7 +22,7 @@ end
 task :build => [:replace_menu_fragments, :generate_works_list, :generate_work_pages] do
 end
 
-task :deploy => :build
+task :deploy => :build do
   sh 'git status'
   sh 'git push'
   sh 'C:\cygwin\bin\ssh.exe dolzenko@suns.dreamhost.com "cd gennadiy-dolzhenko.ru && git pull"'
