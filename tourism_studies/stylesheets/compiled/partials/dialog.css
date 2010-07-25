@@ -1,0 +1,80 @@
+/* line 1, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog {
+  position: relative;
+  margin: 0px auto;
+  min-width: 8em;
+  max-width: 760px;
+  color: white;
+  z-index: 1;
+  margin-left: 12px;
+  margin-bottom: 0.5em;
+}
+/* line 10, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .content, .dialog .t {
+  background: transparent url(dialog2-blue-800x1600.png) no-repeat top right;
+  _background-image: url(dialog2-blue.gif);
+}
+/* line 13, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .b {
+  background: transparent url(dialog2-blue-800x1600.png) no-repeat top right;
+  _background-image: url(dialog2-blue.gif);
+}
+/* line 16, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .b div {
+  background: transparent url(dialog2-blue-800x1600.png) no-repeat top right;
+  _background-image: url(dialog2-blue.gif);
+}
+/* line 19, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .content {
+  position: relative;
+  zoom: 1;
+  _overflow-y: hidden;
+  padding: 0px 12px 0px 0px;
+}
+/* line 24, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .t {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 12px;
+  margin-left: -12px;
+  height: 100%;
+  _height: 1600px;
+  background-position: top left;
+}
+/* line 33, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .b {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  font-size: 1px;
+  background-position: bottom right;
+}
+/* line 39, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .b div {
+  height: 30px;
+  font-size: 1px;
+  position: relative;
+  width: 12px;
+  margin-left: -12px;
+  background-position: bottom left;
+}
+/* line 46, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .hd, .dialog .bd, .dialog .ft {
+  position: relative;
+}
+/* line 48, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog .wrapper {
+  position: static;
+  max-height: 1000px;
+  overflow: auto;
+}
+/* line 52, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog h1, .dialog p {
+  margin: 0px;
+  padding: 0.5em 0px 0.5em 0px;
+}
+/* line 55, ../../../../app/stylesheets/partials/dialog.sass */
+.dialog h1 {
+  padding-bottom: 0px;
+}

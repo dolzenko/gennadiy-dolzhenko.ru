@@ -1,0 +1,19 @@
+/* line 5, ../../../app/stylesheets/test.sass */
+.mixin {
+  background-position: "left" center;
+}
+
+/* line 9, ../../../app/stylesheets/test.sass */
+.direct {
+  background-position: "left" center;
+}
+
+/* line 15, ../../../app/stylesheets/test.sass */
+.unquotes {
+  background: transparent url('../../images/test.png') no-repeat top right;
+}
+
+/* line 18, ../../../app/stylesheets/test.sass */
+.nounquotes {
+  background: transparent url('../../images/test.png') no-repeat top right;
+}
