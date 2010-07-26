@@ -1,0 +1,11 @@
+<% i = 0 %>
+<% Dir["thumbs/*.*"].each do |thumb_path| -%>
+<% thumb_url = File.join("entrant_files/thumbs", File.basename(thumb_path)) -%>
+<% full_url = File.join("entrant_files/full", File.basename(thumb_path)) -%>
+<a href="<%= full_url %>" rel="lightbox[graduates]">
+  <img src="<%= thumb_url %>" />
+</a>
+  <% if (i += 1) % 2 == 0 %>
+<br/>
+<% end -%>
+<% end -%>
