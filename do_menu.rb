@@ -11,6 +11,7 @@ MENU = {
     "contact.html" => "Контакты",
     "guestbook" => "Книга мнений",
     "entrant.html" => 'Абитуриенту <span style="white-space: nowrap">о специальности</span> &laquo;Туризм&raquo;</a>',
+    "newgen.html" => 'Новая генерация студентов',
   },
   "Студенту" => {
     "student.html" => "&laquo;Заключения&raquo; дипломных работ",
@@ -25,7 +26,7 @@ def generate_menu(path)
   for top_level_name, items in MENU
     res << top_level_name << "\n"
     for item_path, item_name in items
-      style = item_path == path.sub(".erb", "") ? ' style="color: Black;"' : '' 
+      style = item_path == path.sub(".erb", "") ? ' style="color: Black;"' : ''
       item_path = "../#{ item_path }" if path =~ /work_item_template.erb.html/
       res << "<a href='#{ item_path }'#{ style }>#{ item_name }</a>" << "\n"
     end
