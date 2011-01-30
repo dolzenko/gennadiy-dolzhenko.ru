@@ -18,6 +18,7 @@ MENU = {
     "student_presentation.html" => "Доклады на защите",
     "student_work.html" => "Науч. работа студентов",
     "practice.html" => "Произв. практика",
+    "educational_process.html" => "Учебный процесс"
   }
 }
 
