@@ -1,4 +1,4 @@
-<% 
+<%
 works = eval(IO.read('works.rb').strip)
 works.sort!() do |y, x|
 	x[:id] <=> y[:id]
@@ -47,7 +47,7 @@ end
 			<% cnt = 1 %>
 			<% for w in works %>
 				<div class="workitem">
-					
+
 					<div style="float: left;">
 						<a id="<%= w[:id] %>" style="width:0px;height:0px;display:inline;font-size:0px;text-decoration:none;margin:0px;padding:0px;position:absolute;"></a>
 						<% if w[:id] != nil && File.exists?("work\\#{w[:id].to_s}.jpg") %>
@@ -67,7 +67,7 @@ end
 						<a href="work/<%= w[:id] %>_res.html">подробнее</a>
 					</div>
 				</div>
-				<div style="clear: both;"></div>
+				<div style="clear: left;"></div>
 			<% end %>
 
 		</div>
