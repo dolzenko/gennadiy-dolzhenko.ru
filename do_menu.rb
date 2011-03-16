@@ -9,9 +9,13 @@ MENU = {
     "paper.html" => "Статьи",
     "diploma.html" => "Благодарности",
     "contact.html" => "Контакты",
-    "guestbook" => "Книга мнений",
-    "entrant.html" => 'Абитуриенту <span style="white-space: nowrap">о специальности</span> &laquo;Туризм&raquo;</a>',
-    "newgen.html" => 'Новая генерация студентов',
+    "guestbook" => "Книга мнений"
+  },
+  "Форум" => {
+    "finvitation.html" => "Приглашение",
+    "fdiscussions.html" => "Дискуссии",
+    "fpeople.html" => "Персоналии",
+    "forg.html" => "Орг. информация"
   },
   "Студенту" => {
     "student.html" => "&laquo;Заключения&raquo; дипломных работ",
@@ -19,7 +23,11 @@ MENU = {
     "student_work.html" => "Науч. работа студентов",
     "practice.html" => "Произв. практика",
     "educational_process.html" => "Учебный процесс"
-  }
+  },
+  "Заметки" => {
+    "entrant.html" => 'Абитуриенту <span style="white-space: nowrap">о специальности</span> &laquo;Туризм&raquo;</a>',
+    "newgen.html" => 'Новая генерация студентов'
+  },
 }
 
 def generate_menu(path)
