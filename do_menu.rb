@@ -25,7 +25,7 @@ MENU = {
     "educational_process.html" => "Учебный процесс"
   },
   "Заметки" => {
-    "conf2011.html" => 'Туризмоведение. Конференция 2011',
+    "conf2011.html" => 'Туризмоведение Конференция 2011',
     "entrant.html" => 'Абитуриенту <span style="white-space: nowrap">о специальности</span> &laquo;Туризм&raquo;</a>',
     "newgen.html" => 'Новая генерация студентов'
   },
