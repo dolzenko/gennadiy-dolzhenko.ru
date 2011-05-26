@@ -11,12 +11,6 @@ MENU = {
     "contact.html" => "Контакты",
     "guestbook" => "Книга мнений"
   },
-  "Форум" => {
-    "finvitation.html" => "Приглашение",
-    "fdiscussions.html" => "Дискуссии",
-    "fpeople.html" => "Персоналии",
-    "forg.html" => "Орг. информация"
-  },
   "Студенту" => {
     "student.html" => "&laquo;Заключения&raquo; дипломных работ",
     "student_presentation.html" => "Доклады на защите",
