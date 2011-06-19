@@ -16,7 +16,8 @@ MENU = {
     "student_presentation.html" => "Доклады на защите",
     "student_work.html" => "Науч. работа студентов",
     "practice.html" => "Произв. практика",
-    "educational_process.html" => "Учебный процесс"
+    "educational_process.html" => "Учебный процесс",
+    "reports.htm" => "Защита дип. работ. 2011 г."
   },
   "Заметки" => {
     "conf2011.html" => 'Туризмоведение Конференция 2011',
