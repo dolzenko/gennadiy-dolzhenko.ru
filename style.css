@@ -79,7 +79,7 @@ body
 	margin: 0px 0px 0px 0px;
 	padding: 0px 10px 10px 0px;
 	font-size: 13px;
-	
+
 }
 
 #content h1, h2
@@ -97,7 +97,7 @@ div.workitem
 	margin-top: 20px;
 	margin-bottom: 10px;
 	margin-right: 100px;
-	height: 160px;
+	/* height: 160px; */
 }
 
 #paperlist li
@@ -209,4 +209,3 @@ div.comment
   border: 1px solid #FFCC66;
   padding: 2px 2px;
 }
-
