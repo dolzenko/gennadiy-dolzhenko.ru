@@ -33,9 +33,7 @@ end
 
 desc "Deploy site"
 task :deploy => :build do
-  sh 'git status'
-  sh 'git push'
-  sh 'C:\cygwin\bin\ssh.exe dolzenko@suns.dreamhost.com "cd gennadiy-dolzhenko.ru && git pull"'
+  sh 'gsutil -m rsync -r . gs://www.gennadiy-dolzhenko.ru'
 end
 
 task :default => :build
