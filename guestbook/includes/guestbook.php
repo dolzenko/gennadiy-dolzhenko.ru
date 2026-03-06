@@ -3,19 +3,19 @@
  * DRBGuestbook
  * http://www.dbscripts.net/guestbook/
  * 
- * Copyright © 2007-2008 Don B
+ * Copyright В© 2007-2008 Don B
  ****************************************************************************/
 
 $guestbook_fp = NULL;
 $MAX_BAD_WORD_LENGTH = 255;
 $MIN_COMMENTS_LENGTH = 10;
 $PREVENT_URLS_IN_COMMENTS = TRUE;
-$ERROR_MSG_URLS_NOT_ALLOWED = "URL адреса запрещены.";
+$ERROR_MSG_URLS_NOT_ALLOWED = "URL Р°РґСЂРµСЃР° Р·Р°РїСЂРµС‰РµРЅС‹.";
 $ENABLE_EMAIL_FIELD = TRUE;
 $ENABLE_URL_FIELD = TRUE;
 $ENABLE_COMMENT_FIELD = TRUE;
 $MIN_SECONDS_BETWEEN_POSTS = 120;
-$ERROR_MSG_FLOOD_DETECTED = "Вы пытаетесь отправлять отзывы слишком часто.";
+$ERROR_MSG_FLOOD_DETECTED = "Р’С‹ РїС‹С‚Р°РµС‚РµСЃСЊ РѕС‚РїСЂР°РІР»СЏС‚СЊ РѕС‚Р·С‹РІС‹ СЃР»РёС€РєРѕРј С‡Р°СЃС‚Рѕ.";
 $READ_ONLY_MODE = FALSE;
 
 function guestbook_file_path() {

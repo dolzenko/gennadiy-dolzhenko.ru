@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-	<title>Геннадий Долженко. Персональный сайт</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Р“РµРЅРЅР°РґРёР№ Р”РѕР»Р¶РµРЅРєРѕ. РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Р№ СЃР°Р№С‚</title>
 	<style type="text/css" media="screen">
 		@import url(../style.css);
 	</style>
@@ -11,28 +11,28 @@
 	<div id="thebox">
 		<div id="headtag">
 			<div id="headtext" style="position: relative; top: 28px; left: -23px;">
-				<a href="#" style="text-decoration: none; color: White;">Геннадий Долженко<br />
-				Персональный сайт</a>
+				<a href="#" style="text-decoration: none; color: White;">Р“РµРЅРЅР°РґРёР№ Р”РѕР»Р¶РµРЅРєРѕ<br />
+				РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Р№ СЃР°Р№С‚</a>
 			</div>
 			<div id="headtagline" style="position: relative">
-				Туризм. Рекреационная география. Экскурсоведение
+				РўСѓСЂРёР·Рј. Р РµРєСЂРµР°С†РёРѕРЅРЅР°СЏ РіРµРѕРіСЂР°С„РёСЏ. Р­РєСЃРєСѓСЂСЃРѕРІРµРґРµРЅРёРµ
 			</div>
 		</div>
 		<div id="floatright">
-		Меню
-<a href='../index.html'>Главная</a>
-<a href='../work.html'>Книги</a>
-<a href='../paper.html'>Статьи</a>
-<a href='../diploma.html'>Благодарности</a>
-<a href='../contact.html'>Контакты</a>
-<a href='../guestbook'>Книга мнений</a>
-<a href='../entrant.html'>Абитуриенту <span style="white-space: nowrap">о специальности</span> &laquo;Туризм&raquo;</a></a>
-Студенту
-<a href='../student.html'>&laquo;Заключения&raquo; дипломных работ</a>
-<a href='../student_presentation.html'>Доклады на защите</a>
-<a href='../student_work.html'>Науч. работа студентов</a>
+		РњРµРЅСЋ
+<a href='../index.html'>Р“Р»Р°РІРЅР°СЏ</a>
+<a href='../work.html'>РљРЅРёРіРё</a>
+<a href='../paper.html'>РЎС‚Р°С‚СЊРё</a>
+<a href='../diploma.html'>Р‘Р»Р°РіРѕРґР°СЂРЅРѕСЃС‚Рё</a>
+<a href='../contact.html'>РљРѕРЅС‚Р°РєС‚С‹</a>
+<a href='../guestbook'>РљРЅРёРіР° РјРЅРµРЅРёР№</a>
+<a href='../entrant.html'>РђР±РёС‚СѓСЂРёРµРЅС‚Сѓ <span style="white-space: nowrap">Рѕ СЃРїРµС†РёР°Р»СЊРЅРѕСЃС‚Рё</span> &laquo;РўСѓСЂРёР·Рј&raquo;</a></a>
+РЎС‚СѓРґРµРЅС‚Сѓ
+<a href='../student.html'>&laquo;Р—Р°РєР»СЋС‡РµРЅРёСЏ&raquo; РґРёРїР»РѕРјРЅС‹С… СЂР°Р±РѕС‚</a>
+<a href='../student_presentation.html'>Р”РѕРєР»Р°РґС‹ РЅР° Р·Р°С‰РёС‚Рµ</a>
+<a href='../student_work.html'>РќР°СѓС‡. СЂР°Р±РѕС‚Р° СЃС‚СѓРґРµРЅС‚РѕРІ</a>
 		</div>
 		<div id="content">
-		<h1>Книга мнений об авторе и его работах</h1>
-		<p>Заранее благодарю за высказанное мнение.</p>
-		<p>Ваша точка зрения, замечания по поводу прочитанного, критика в мой адрес окажут мне неоценимую пользу в написании следующей книги или статьи.</p>
+		<h1>РљРЅРёРіР° РјРЅРµРЅРёР№ РѕР± Р°РІС‚РѕСЂРµ Рё РµРіРѕ СЂР°Р±РѕС‚Р°С…</h1>
+		<p>Р—Р°СЂР°РЅРµРµ Р±Р»Р°РіРѕРґР°СЂСЋ Р·Р° РІС‹СЃРєР°Р·Р°РЅРЅРѕРµ РјРЅРµРЅРёРµ.</p>
+		<p>Р’Р°С€Р° С‚РѕС‡РєР° Р·СЂРµРЅРёСЏ, Р·Р°РјРµС‡Р°РЅРёСЏ РїРѕ РїРѕРІРѕРґСѓ РїСЂРѕС‡РёС‚Р°РЅРЅРѕРіРѕ, РєСЂРёС‚РёРєР° РІ РјРѕР№ Р°РґСЂРµСЃ РѕРєР°Р¶СѓС‚ РјРЅРµ РЅРµРѕС†РµРЅРёРјСѓСЋ РїРѕР»СЊР·Сѓ РІ РЅР°РїРёСЃР°РЅРёРё СЃР»РµРґСѓСЋС‰РµР№ РєРЅРёРіРё РёР»Рё СЃС‚Р°С‚СЊРё.</p>

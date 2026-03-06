@@ -3,7 +3,7 @@
  * DRBGuestbook
  * http://www.dbscripts.net/guestbook/
  * 
- * Copyright © 2007-2008 Don B
+ * Copyright Â© 2007-2008 Don B
  ****************************************************************************/
  
 // Field min/max lengths
