@@ -12,6 +12,13 @@ bash ./scripts/build-pages.sh
 
 После этого готовый каталог публикации будет в `.pages-dist/`.
 
+Во время сборки дополнительно генерируются:
+
+- `robots.txt`
+- `sitemap.xml`
+- `rel=canonical` для опубликованных HTML-страниц
+- `lang="ru"` для опубликованных HTML-страниц
+
 ## Настройка Cloudflare Pages через GitHub
 
 Создай Pages project через GitHub integration для этого репозитория и укажи:
