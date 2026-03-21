@@ -5,6 +5,31 @@ readonly REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 readonly OUT_DIR="${REPO_ROOT}/.pages-dist"
 readonly SITE_HOST="xn----7sbifbcehpkpjtajmf.xn--p1ai"
 readonly SITE_URL="https://${SITE_HOST}"
+readonly GA4_SNIPPET="$(cat <<'EOF'
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-22NV7C8P3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-22NV7C8P3F');
+</script>
+EOF
+)"
+readonly YANDEX_METRIKA_SNIPPET="$(cat <<'EOF'
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=108180391', 'ym');
+
+    ym(108180391, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/108180391" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+EOF
+)"
 
 rm -rf "${OUT_DIR}"
 mkdir -p "${OUT_DIR}"
@@ -58,7 +83,7 @@ postprocess_html_file() {
   local canonical_url
   canonical_url="$(canonical_url_for "${rel_path}")"
 
-  CANONICAL_URL="${canonical_url}" perl -0pi -e '
+  CANONICAL_URL="${canonical_url}" GA4_SNIPPET_ENV="${GA4_SNIPPET}" YANDEX_METRIKA_SNIPPET_ENV="${YANDEX_METRIKA_SNIPPET}" perl -0pi -e '
     if (/<html\b/i) {
       s{<html\b([^>]*)>}{
         my $attrs = $1;
@@ -71,6 +96,16 @@ postprocess_html_file() {
     if (/<head\b/i && /<\/head>/i && !/<link\s+rel=["\047]canonical["\047]/i) {
       s{</head>}
        {\t<link rel="canonical" href="$ENV{CANONICAL_URL}" />\n</head>}i;
+    }
+
+    if (/<\/body>/i && !/googletagmanager\.com\/gtag\/js\?id=G-22NV7C8P3F/i) {
+      my $snippet = $ENV{GA4_SNIPPET_ENV};
+      s{</body>}{$snippet\n</body>}i;
+    }
+
+    if (/<\/body>/i && !/mc\.yandex\.ru\/metrika\/tag\.js\?id=108180391/i) {
+      my $snippet = $ENV{YANDEX_METRIKA_SNIPPET_ENV};
+      s{</body>}{$snippet\n</body>}i;
     }
   ' "${file_path}"
 }
